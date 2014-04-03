@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp", "SampleApp\SampleApp.csproj", "{4EFD4D28-7349-431E-9ECB-142D49D376BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EFD4D28-7349-431E-9ECB-142D49D376BB}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{4EFD4D28-7349-431E-9ECB-142D49D376BB}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{4EFD4D28-7349-431E-9ECB-142D49D376BB}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{4EFD4D28-7349-431E-9ECB-142D49D376BB}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{4EFD4D28-7349-431E-9ECB-142D49D376BB}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{4EFD4D28-7349-431E-9ECB-142D49D376BB}.Debug|iPhone.Build.0 = Debug|iPhone
+		{4EFD4D28-7349-431E-9ECB-142D49D376BB}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{4EFD4D28-7349-431E-9ECB-142D49D376BB}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{4EFD4D28-7349-431E-9ECB-142D49D376BB}.Release|iPhone.ActiveCfg = Release|iPhone
+		{4EFD4D28-7349-431E-9ECB-142D49D376BB}.Release|iPhone.Build.0 = Release|iPhone
+		{4EFD4D28-7349-431E-9ECB-142D49D376BB}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{4EFD4D28-7349-431E-9ECB-142D49D376BB}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = SampleApp\SampleApp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = VisualStudio
+		$1.inheritsScope = text/plain
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.IndentSwitchBody = True
+		$2.AnonymousMethodBraceStyle = NextLine
+		$2.PropertyBraceStyle = NextLine
+		$2.PropertyGetBraceStyle = NextLine
+		$2.PropertySetBraceStyle = NextLine
+		$2.EventBraceStyle = NextLine
+		$2.EventAddBraceStyle = NextLine
+		$2.EventRemoveBraceStyle = NextLine
+		$2.StatementBraceStyle = NextLine
+		$2.ElseNewLinePlacement = NewLine
+		$2.CatchNewLinePlacement = NewLine
+		$2.FinallyNewLinePlacement = NewLine
+		$2.WhileNewLinePlacement = DoNotCare
+		$2.ArrayInitializerWrapping = DoNotChange
+		$2.ArrayInitializerBraceStyle = NextLine
+		$2.BeforeMethodDeclarationParentheses = False
+		$2.BeforeMethodCallParentheses = False
+		$2.BeforeConstructorDeclarationParentheses = False
+		$2.BeforeDelegateDeclarationParentheses = False
+		$2.NewParentheses = False
+		$2.SpacesBeforeBrackets = False
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.inheritsSet = VisualStudio
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+		$0.TextStylePolicy = $4
+		$4.inheritsSet = Mono
+		$4.inheritsScope = text/plain
+		$4.scope = application/vnd.apple-interface-builder
+		$0.XmlFormattingPolicy = $5
+		$5.inheritsSet = Mono
+		$5.inheritsScope = application/xml
+		$5.scope = application/vnd.apple-interface-builder
+		$0.TextStylePolicy = $6
+		$6.inheritsSet = Mono
+		$6.inheritsScope = text/plain
+		$6.scope = application/xml
+		$0.XmlFormattingPolicy = $7
+		$7.inheritsSet = Mono
+		$7.inheritsScope = application/xml
+		$7.scope = application/xml
+	EndGlobalSection
+EndGlobal
