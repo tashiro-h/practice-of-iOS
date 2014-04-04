@@ -20,6 +20,13 @@ namespace SampleApp
         {
             base.ViewDidLoad();
         }
+
+        partial void goToNext(NSObject sender)
+        {
+            dispLabel.Text = "Pushed!!";
+
+            PresentModalViewController(new SecondViewController(), false);
+        }
     }
 }
 

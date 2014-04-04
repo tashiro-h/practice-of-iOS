@@ -105,9 +105,14 @@
     <Compile Include="SampleAppViewController.designer.cs">
       <DependentUpon>SampleAppViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="SecondViewController.cs" />
+    <Compile Include="SecondViewController.designer.cs">
+      <DependentUpon>SecondViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="SampleAppViewController.xib" />
+    <InterfaceDefinition Include="SecondViewController.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

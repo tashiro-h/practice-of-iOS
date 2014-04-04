@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		371906530000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAA12F10000000000000000 /* UIKit.framework */; };
+		18AEA9860000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3FB6240000000000000000 /* MapKit.framework */; };
+		2DE2121E0000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31731EBC0000000000000000 /* Foundation.framework */; };
+		214CF4670000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DE01050000000000000000 /* CoreGraphics.framework */; };
+		2A9F70E80000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E307D860000000000000000 /* Default-568h@2x.png */; };
+		3FD2D9800000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 363E61E00000000000000000 /* Info.plist */; };
+		2DFD9A6A0000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 318EA7080000000000000000 /* Entitlements.plist */; };
+		1C285B540000000000000000 /* SampleAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FB967F20000000000000000 /* SampleAppViewController.xib */; };
+		387DDD280000000000000000 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C0EE9C60000000000000000 /* SecondViewController.xib */; };
+		168273BD0000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 1A13805B0000000000000000 /* AppDelegate.h */; };
+		34870A520000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 381816F00000000000000000 /* AppDelegate.m */; };
+		D4B7F8800000000000000000 /* SampleAppViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 10DC8C260000000000000000 /* SampleAppViewController.h */; };
+		227EE8200000000000000000 /* SampleAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260FF4BE0000000000000000 /* SampleAppViewController.m */; };
+		265769200000000000000000 /* SecondViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 5F6833000000000000000000 /* SecondViewController.h */; };
+		3B107A3A0000000000000000 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA186D80000000000000000 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B4304C00000000000000000 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "SampleApp.app"; path = "SampleApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AAA12F10000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		1C3FB6240000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		31731EBC0000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		24DE01050000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		2E307D860000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		363E61E00000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		318EA7080000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		1FB967F20000000000000000 /* SampleAppViewController.xib */ = {isa = PBXFileReference; name = "SampleAppViewController.xib"; path = "SampleAppViewController.xib"; sourceTree = "<group>"; };
+		3C0EE9C60000000000000000 /* SecondViewController.xib */ = {isa = PBXFileReference; name = "SecondViewController.xib"; path = "SecondViewController.xib"; sourceTree = "<group>"; };
+		1A13805B0000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		381816F00000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		10DC8C260000000000000000 /* SampleAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SampleAppViewController.h"; path = "SampleAppViewController.h"; sourceTree = "<group>"; };
+		260FF4BE0000000000000000 /* SampleAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SampleAppViewController.m"; path = "SampleAppViewController.m"; sourceTree = "<group>"; };
+		5F6833000000000000000000 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SecondViewController.h"; path = "SecondViewController.h"; sourceTree = "<group>"; };
+		3EA186D80000000000000000 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SecondViewController.m"; path = "SecondViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		102B45E00000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371906530000000000000000 /* UIKit.framework in Frameworks */,
+				18AEA9860000000000000000 /* MapKit.framework in Frameworks */,
+				2DE2121E0000000000000000 /* Foundation.framework in Frameworks */,
+				214CF4670000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3044B76E0000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				1ADE6BBA0000000000000000 /* SampleApp */,
+				3AF7DD480000000000000000 /* Frameworks */,
+				259191940000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		259191940000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B4304C00000000000000000 /* SampleApp.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		3AF7DD480000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AAA12F10000000000000000 /* UIKit.framework */,
+				1C3FB6240000000000000000 /* MapKit.framework */,
+				31731EBC0000000000000000 /* Foundation.framework */,
+				24DE01050000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		1ADE6BBA0000000000000000 /* SampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				1A13805B0000000000000000 /* AppDelegate.h */,
+				2E307D860000000000000000 /* Default-568h@2x.png */,
+				318EA7080000000000000000 /* Entitlements.plist */,
+				363E61E00000000000000000 /* Info.plist */,
+				10DC8C260000000000000000 /* SampleAppViewController.h */,
+				1FB967F20000000000000000 /* SampleAppViewController.xib */,
+				5F6833000000000000000000 /* SecondViewController.h */,
+				3C0EE9C60000000000000000 /* SecondViewController.xib */,
+				3669022F0000000000000000 /* Supporting Files */,
+			);
+			name = "SampleApp";
+			sourceTree = "<group>";
+		};
+		3669022F0000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				381816F00000000000000000 /* AppDelegate.m */,
+				260FF4BE0000000000000000 /* SampleAppViewController.m */,
+				3EA186D80000000000000000 /* SecondViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39F96DBC0000000000000000 /* SampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37010A720000000000000000 /* Build configuration list for PBXNativeTarget "SampleApp" */;
+			buildPhases = (
+				3E5606CA0000000000000000 /* Sources */,
+				102B45E00000000000000000 /* Frameworks */,
+				2740A6550000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SampleApp";
+			productName = "SampleApp";
+			productReference = 1B4304C00000000000000000 /* SampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BB53B440000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2C4DE4980000000000000000 /* Build configuration list for PBXProject "SampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3044B76E0000000000000000;
+			productRefGroup = 259191940000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39F96DBC0000000000000000 /* SampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2740A6550000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9F70E80000000000000000 /* Default-568h@2x.png in Resources */,
+				3FD2D9800000000000000000 /* Info.plist in Resources */,
+				2DFD9A6A0000000000000000 /* Entitlements.plist in Resources */,
+				1C285B540000000000000000 /* SampleAppViewController.xib in Resources */,
+				387DDD280000000000000000 /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E5606CA0000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168273BD0000000000000000 /* AppDelegate.h in Sources */,
+				34870A520000000000000000 /* AppDelegate.m in Sources */,
+				D4B7F8800000000000000000 /* SampleAppViewController.h in Sources */,
+				227EE8200000000000000000 /* SampleAppViewController.m in Sources */,
+				265769200000000000000000 /* SecondViewController.h in Sources */,
+				3B107A3A0000000000000000 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DCA163D0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		219ABEBE0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "SampleApp";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C4DE4980000000000000000 /* Build configuration list for PBXProject "SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DCA163D0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		37010A720000000000000000 /* Build configuration list for PBXNativeTarget "SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219ABEBE0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BB53B440000000000000000 /* Project object */;
+}

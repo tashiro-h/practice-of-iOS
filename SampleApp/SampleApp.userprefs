@@ -1,6 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina.7.1" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleApp/SampleAppViewController.cs">
+    <Files>
+      <File FileName="SampleApp/SampleAppViewController.cs" Line="16" Column="36" />
+      <File FileName="SampleApp/AppDelegate.cs" Line="9" Column="10" />
+      <File FileName="SampleApp/Main.cs" Line="13" Column="1" />
+      <File FileName="SampleApp/Entitlements.plist" />
+      <File FileName="SampleApp/SampleAppViewController.designer.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
