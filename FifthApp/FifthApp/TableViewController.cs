@@ -35,7 +35,7 @@ namespace FifthApp
 			personTableView.Delegate = tDelegate;
 			personTableView.DataSource = new DataSource (InitTableData ());
 
-			titleLabel.Text = "List";
+			titleLabel.Text = "Lists";
 		}
 
 		private List<Item> InitTableData ()
